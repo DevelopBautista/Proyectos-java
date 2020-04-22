@@ -10,3 +10,6 @@ class Hola():
 		
 		
 		
+hola=Hola()
+
+hola.saludar()
