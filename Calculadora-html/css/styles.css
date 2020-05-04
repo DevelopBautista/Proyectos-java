@@ -1,0 +1,46 @@
+body {
+  background-color: lightblue;
+}
+
+.contenedor{
+        background-color: #336699;
+        width: 20rem;
+        padding: 3rem;
+        margin: 1rem auto;
+        border-radius: 0.5rem;
+        height: 15rem;
+}
+
+#borde{
+   color:#ffffff;
+   background-color: #000000;
+   padding: 4px 4px 2px 4px;
+   font-family: ocrb;
+   font-weight: bold;
+   font-size: 130%;
+
+}
+
+input[type="text"]{
+	 border-radius: 5px;
+	 border: 1px solid #39c;
+	 text-align: center;
+   float: left;
+}
+.submit{
+	padding: 5px;
+	background-color:#b3ecff;
+	border-radius: 5px;
+	margin-left: 8px; 
+
+}
+#num1{
+  font-size: 16px;
+}
+#num2{
+  font-size: 16px;
+}
+
+#resultados{
+  font-size: 16px;
+}
