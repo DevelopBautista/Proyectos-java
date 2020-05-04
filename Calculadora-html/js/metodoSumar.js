@@ -16,7 +16,7 @@ function sumar() {
 }
 
 
-function restar() {document.getElementById("resultados").value="Campos vacios";
+	function restar() {document.getElementById("resultados").value="Campos vacios";
 	var num1=document.getElementById("num1").value;
 	var num2=document.getElementById("num2").value;
 	
@@ -36,7 +36,7 @@ function restar() {document.getElementById("resultados").value="Campos vacios";
 	
 }
 
-function multiplicar() {
+	function multiplicar() {
 	var num1=document.getElementById("num1").value;
 	var num2=document.getElementById("num2").value;
 	
@@ -55,7 +55,7 @@ function multiplicar() {
 }
 
 
-function dividir() {
+	function dividir() {
 	var num1=document.getElementById("num1").value;
 	var num2=document.getElementById("num2").value;
 	
