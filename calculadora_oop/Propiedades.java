@@ -1,10 +1,10 @@
 package calculadora;
+//Aqui declaro las  vars y creo sus metodos setter y getter 
 
 public class Propiedades {
 
 	private double num1;
 	private double num2;
-	private double resultados;
 
 	public Propiedades() {
 
@@ -24,14 +24,6 @@ public class Propiedades {
 
 	public void setNum2(double num2) {
 		this.num2 = num2;
-	}
-
-	public double getResultados() {
-		return resultados;
-	}
-
-	public void setResultados(double resultados) {
-		this.resultados = resultados;
 	}
 
 }
