@@ -5,6 +5,7 @@ public class Propiedades {
 
 	private double num1;
 	private double num2;
+	private double raiz;
 
 	public Propiedades() {
 
@@ -24,6 +25,15 @@ public class Propiedades {
 
 	public void setNum2(double num2) {
 		this.num2 = num2;
+	}
+
+	void setRaiz(double raiz) {
+		this.raiz = raiz;
+
+	}
+
+	public double getRaiz() {
+		return this.raiz;
 	}
 
 }

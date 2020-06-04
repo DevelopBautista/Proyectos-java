@@ -20,7 +20,13 @@ public class MetodosAritmeticos extends Propiedades {
 
 	public double divid(double num1, double num2) {
 
-		return num1 / num2;
+		return Math.floor(num1 / num2);
+	}
+
+	public double root(double num1) {
+
+		return Math.floor(Math.sqrt(num1));
+
 	}
 
 }
