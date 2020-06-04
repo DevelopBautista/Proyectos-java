@@ -23,9 +23,9 @@ public class MetodosAritmeticos extends Propiedades {
 		return Math.floor(num1 / num2);
 	}
 
-	public double root(double num1) {
+	public double root(double raiz) {
 
-		return Math.floor(Math.sqrt(num1));
+		return Math.floor(Math.sqrt(raiz));
 
 	}
 

@@ -168,8 +168,8 @@ public class VistaC extends javax.swing.JFrame implements ActionListener {
 				txtResult.setText("");
 
 			} else if (e.getSource() == btnRaiz) {
-				m.setNum1(Double.parseDouble(txtNum1.getText()));
-				txtResult.setText(String.valueOf(m.root(m.getNum1())));
+				m.setRaiz(Double.parseDouble(txtNum1.getText()));
+				txtResult.setText(String.valueOf(m.root(m.getRaiz())));
 			}
 		} catch (Exception e2) {
 			txtResult.setText("Error");
