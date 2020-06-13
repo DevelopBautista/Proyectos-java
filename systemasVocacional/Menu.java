@@ -8,10 +8,10 @@ public class Menu extends Metodos {
 	Scanner entrada = new Scanner(System.in);
 
 	public void getMenu() {
+		System.out.println("***********************************************************");
+		System.out.println("*Bienvenidos al sistema de vacaciones de Coco-Cola Company*");
+		System.out.println("***********************************************************");
 		do {
-			System.out.println("***********************************************************");
-			System.out.println("*Bienvenidos al sistema de vacaciones de Coco-Cola Company*");
-			System.out.println("***********************************************************");
 			System.out.println("");
 			System.out.print("Cual es el nombre del trabajador: ?");
 			setNombre(entrada.next());
