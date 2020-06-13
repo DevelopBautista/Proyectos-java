@@ -16,14 +16,18 @@ public class Menu extends Metodos {
 			System.out.print("Cual es el nombre del trabajador: ?");
 			setNombre(entrada.next());
 			System.out.println("");
+
 			System.out.print("Cuantos años tienes en la compañia: ?");
 			setAntiguedad(entrada.nextInt());
 			System.out.println("");
+
 			System.out.print("Digite la clave del departamento: ?");
 			setClave(entrada.nextInt());
 			System.out.println("************");
-			super.opciones();
+
+			super.opciones();// llamando al metodo 'opciones' de la clase 'Metodos'
 			System.out.println("");
+
 			System.out.print("Desea consultar otro empleado: ");
 			op = entrada.next();
 			if (op.equalsIgnoreCase("no")) {
