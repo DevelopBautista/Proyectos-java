@@ -1,37 +1,25 @@
 package interfaces;
 
-import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 public class Menu extends Metodos {
 	private String op = "si";
 
-	Scanner entrada = new Scanner(System.in);
-
 	public void getMenu() {
-		System.out.println("***********************************************************");
-		System.out.println("*Bienvenidos al sistema de vacaciones de Coco-Cola Company*");
-		System.out.println("***********************************************************");
+		JOptionPane.showMessageDialog(null, "Bienvenidos al sistema de vacaciones de Coca-Cola Company");
 		do {
-			System.out.println("");
-			System.out.print("Cual es el nombre del trabajador: ?");
-			setNombre(entrada.next());
-			System.out.println("");
 
-			System.out.print("Cuantos años tienes en la compañia: ?");
-			setAntiguedad(entrada.nextInt());
-			System.out.println("");
+			setNombre(JOptionPane.showInputDialog("Cuales el nombre del empleado ? "));
 
-			System.out.print("Digite la clave del departamento: ?");
-			setClave(entrada.nextInt());
-			System.out.println("************");
+			setAntiguedad(Integer.parseInt(JOptionPane.showInputDialog("Cuantos años tienes en la compañia ?")));
+
+			setClave(Integer.parseInt(JOptionPane.showInputDialog("Clave del departamento")));
 
 			super.opciones();// llamando al metodo 'opciones' de la clase 'Metodos'
-			System.out.println("");
 
-			System.out.print("Desea consultar otro empleado: ");
-			op = entrada.next();
+			op = JOptionPane.showInputDialog("Desea consultar otro empleado ?");
 			if (op.equalsIgnoreCase("no")) {
-				System.out.println("Hasta luego...!!");
+				JOptionPane.showMessageDialog(null, "Hasta luego...!!");
 
 			}
 		} while (op.equalsIgnoreCase("si"));
@@ -39,7 +27,6 @@ public class Menu extends Metodos {
 	}
 
 	public Menu() {
-
 	}
 
 }
